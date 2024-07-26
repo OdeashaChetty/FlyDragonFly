@@ -16,6 +16,7 @@ class BitmapBank(resources: Resources) {
         bird[0] = scaleBirdImage(bird[0]!!)
         bird[1] = scaleBirdImage(bird[1]!!)
     }
+    //add to git
 
     fun getBird(frame: Int): Bitmap? {
         return bird[frame]
